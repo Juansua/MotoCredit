@@ -24,7 +24,7 @@ function obtenerDatosJason() {
 
 let element = document.getElementById("datos")
 
-fetch(`/datos.json`)
+fetch(`https://github.com/Juansua/MotoCredit/blob/a9235352a883006287dc94fdd902111c501bbf74/data/datos.json`)
 .then(response => response.json() )
 
 .then(data => {

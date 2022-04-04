@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Bienvenido al simulador de crédito para tu moto</h1>
+    <div>
+        <h2>USADOS EN VENTA</h2>
+        <div id="datos">
+        </div>
+    </div>
+
+    <div class="container" id="moto">
+        <h2>Por favor, selecciona la moto que quieres cotizar:</h2>
+        <div>
+            <img src="img/Kawasaki-Ninja-400.jpg" alt="" width="500">
+            <input type="button" value="Ninja 400 - $2.000" id="ninja">
+        </div>
+        <div>
+            <img src="img/Kawasaki-Versys-300-campo.jpg" alt="" width="500">
+            <input type="button" value="Versys 300 - $4.000" id="versys">
+        </div>
+        
+    </div>
+
+    <div class="container" id="meses">
+        <h2>Ahora, selecciona en cuántos meses la quieres pagar:</h2>
+        <input type="button" value="12 meses" id="doce">
+        <input type="button" value="24 meses" id="veint">
+    </div>
+
+    <div class="container" id="res">
+        <h2></h2>
+    </div>
+
+    <div class="container" id="stor">
+        <input type="button" value="GUARDAR" id="guardar">
+
+        <input type="button" value="BORRAR DATOS" id="clear">
+
+        <input type="button" value="MOSTRAR DATO ANTERIOR" id="dato">
+
+        <div id="resp">
+        </div>
+    </div>
+
+
+    <!-- <script src="main.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <script src="proy1.js"></script>
+    <script src="data/fetch.js"></script>
+</body>
+
+</html>
